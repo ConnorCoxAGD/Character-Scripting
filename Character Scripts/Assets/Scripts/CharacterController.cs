@@ -4,13 +4,17 @@ using UnityEngine;
 
 public class CharacterController : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public float speed = 1;
+    public float gravity = 1;
+
+    private CharacterController _controller;
+    private Vector3 _direction;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
