@@ -187,13 +187,33 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270515669}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalRotation: {x: -0.033033058, y: 0.97290593, z: -0.1709727, w: -0.15208966}
+  m_LocalPosition: {x: 0.4, y: 1.55, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 20.043001, y: 197.637, z: -0.748}
+--- !u!1 &367318123 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100096, guid: f4bb2df34a0598d4b9d72d9aac90b46c,
+    type: 3}
+  m_PrefabInstance: {fileID: 1878856349}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &367318126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 367318123}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2178e6795b507034ba57b7323eabafa6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controlScheme: {fileID: 11400000, guid: bf93cf614b4518c45a7a5341f21a39a1, type: 2}
+  animHandler: {fileID: 0}
 --- !u!1 &1514306430
 GameObject:
   m_ObjectHideFlags: 0
@@ -364,7 +384,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100096, guid: f4bb2df34a0598d4b9d72d9aac90b46c, type: 3}
       propertyPath: m_Name
-      value: Robot Kyle@Goalkeeper Idle
+      value: Robot Kyle
       objectReference: {fileID: 0}
     - target: {fileID: 400096, guid: f4bb2df34a0598d4b9d72d9aac90b46c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -410,5 +430,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: f4bb2df34a0598d4b9d72d9aac90b46c, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 9ad47d38fb58c1a4f9ed9cea594f973a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4bb2df34a0598d4b9d72d9aac90b46c, type: 3}
