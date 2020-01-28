@@ -2,7 +2,7 @@
 
 public abstract class CharMoveBase : ScriptableObject
 {
-    public CharacterController Controller { get; set; }
+    protected CharacterController Controller { get; set; }
     protected Vector3 Location;
     protected Vector3 Orientation;
 

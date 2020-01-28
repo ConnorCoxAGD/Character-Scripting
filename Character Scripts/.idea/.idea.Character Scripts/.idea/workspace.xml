@@ -12,15 +12,27 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimTriggers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationScripts.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DebugObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CharacterController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/ControlHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/CharMoveBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/CharacterMove.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/CharControlScheme.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement/LookAtCamera.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/AnimBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/DebugObject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimTriggers.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/CharacterMove.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/CharMoveBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/LookAtCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AnimationScripts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Movement/CharControlScheme.cs" />
       </list>
     </option>
   </component>
@@ -73,6 +85,7 @@
       <updated>1578599375959</updated>
       <workItem from="1578599379118" duration="108000" />
       <workItem from="1579807149197" duration="1278000" />
+      <workItem from="1580229577745" duration="12029000" />
     </task>
     <servers />
   </component>
@@ -100,6 +113,8 @@
   <component name="WindowStateProjectService">
     <state x="445" y="161" key="SettingsEditor" />
     <state x="445" y="161" key="SettingsEditor/1920.1080" />
+    <state x="572" y="245" width="672" height="678" key="search.everywhere.popup" />
+    <state x="572" y="245" width="672" height="678" key="search.everywhere.popup/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
