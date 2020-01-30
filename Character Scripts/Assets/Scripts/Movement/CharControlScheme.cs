@@ -17,7 +17,7 @@ public class CharControlScheme : MonoBehaviour
    {
       if (_controller.isGrounded && Input.GetButton("Jump"))
       {
-         _pos.y += JumpSpeed * Time.deltaTime;
+         _pos.y = JumpSpeed * Time.deltaTime;
       }
       else
       {
@@ -30,6 +30,7 @@ public class CharControlScheme : MonoBehaviour
       var mouseInput = Input.GetAxis("Mouse X");
       _orientation = new Vector3(0,mouseInput,0);
       _controller.transform.Rotate(_orientation);
+      
       _pos = _controller.transform.TransformDirection(_pos);
       
       

@@ -4,7 +4,8 @@ public class LookAtCamera : MonoBehaviour
 {
     public GameObject target;
      
-    void LateUpdate() {
+    private void LateUpdate() 
+    {
         transform.LookAt(target.transform);
     }
 }
