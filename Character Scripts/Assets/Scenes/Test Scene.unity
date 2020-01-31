@@ -121,8 +121,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 90135179}
-  - component: {fileID: 90135181}
-  - component: {fileID: 90135180}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -141,80 +139,16 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 944382859}
-  - {fileID: 270515672}
-  - {fileID: 281404057}
+  - {fileID: 560894615}
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &90135180
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 90135178}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e1e2ab3e9cd49a489909d38fe9d66f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  OnStart:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0b69f6850578c024a85a47859de95869, type: 2}
-        m_MethodName: set_Controller
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 90135181}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.CharacterController, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-  onUpdateEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0b69f6850578c024a85a47859de95869, type: 2}
-        m_MethodName: Move
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!143 &90135181
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 90135178}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1.89
-  m_Radius: 0.34
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 2.39
-  m_Center: {x: 0, y: 0.94, z: 0}
 --- !u!1001 &199777696
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 90135179}
+    m_TransformParent: {fileID: 560894615}
     m_Modifications:
     - target: {fileID: 100096, guid: a14d8e0748340a04fab89af3d6680831, type: 3}
       propertyPath: m_Name
@@ -351,10 +285,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 270515669}
   m_LocalRotation: {x: 0.15927202, y: -0, z: -0, w: 0.9872348}
-  m_LocalPosition: {x: 0, y: 1.66, z: -2.22}
+  m_LocalPosition: {x: 0, y: 1.91, z: -2.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 90135179}
+  m_Father: {fileID: 560894615}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 18.329, y: 360, z: 0}
 --- !u!114 &270515673
@@ -393,13 +327,113 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 281404056}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 90135179}
+  m_Father: {fileID: 560894615}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &560894614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 560894615}
+  - component: {fileID: 560894617}
+  - component: {fileID: 560894616}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &560894615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560894614}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 944382859}
+  - {fileID: 270515672}
+  - {fileID: 281404057}
+  m_Father: {fileID: 90135179}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &560894616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560894614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e1e2ab3e9cd49a489909d38fe9d66f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jumpSpeed: 50
+  gravity: 5
+  Controller: {fileID: 560894617}
+  OnStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 0b69f6850578c024a85a47859de95869, type: 2}
+        m_MethodName: set_Controller
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 560894617}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.CharacterController, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onUpdateEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 11400000, guid: 0b69f6850578c024a85a47859de95869, type: 2}
+        m_MethodName: Move
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!143 &560894617
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560894614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 1.91
+  m_Radius: 0.24
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0.99, z: 0}
 --- !u!4 &944382859 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400096, guid: a14d8e0748340a04fab89af3d6680831,

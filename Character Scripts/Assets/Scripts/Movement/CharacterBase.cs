@@ -3,10 +3,9 @@
 public abstract class CharacterBase : ScriptableObject
 {
     public CharacterController Controller { get; set; }
-    protected Vector3 Location;
-    protected Vector3 Orientation;
-
-    public float speed = 2f, gravity = 2f, jumpSpeed = 2f;
+    protected Vector3 position;
+    protected Vector3 orientation;
+    public float speed = 3f, orientSpeed = 5f;
     
     public abstract void Move();
 

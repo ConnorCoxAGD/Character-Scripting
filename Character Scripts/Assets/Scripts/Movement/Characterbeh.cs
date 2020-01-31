@@ -1,25 +1,21 @@
-﻿using UnityEngine;
-using UnityEngine.Events;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
-public class CharacterHandler : MonoBehaviour
+public class JumpControls : MonoBehaviour
 {
-    public float jumpSpeed = 10f, gravity = 5f;
+    public float jumpSpeed = 10f, gravity = 10f;
 
     public CharacterController Controller;
     private Vector3 _position;
 
-    public UnityEvent OnStart, onUpdateEvent;
-    
-    void Start()
+    public void Start()
     {
         Controller = GetComponent<CharacterController>();
-        OnStart.Invoke();
     }
-    
-    void Update()
-    {
-        onUpdateEvent.Invoke();
 
+    public void Update()
+    {
         _position.y -= gravity;
 
         if (Controller.isGrounded && Input.GetButtonDown("Jump"))
@@ -28,5 +24,6 @@ public class CharacterHandler : MonoBehaviour
         }
 
         Controller.Move(_position * Time.deltaTime);
+
     }
 }

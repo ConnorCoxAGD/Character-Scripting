@@ -12,6 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ad748cf759725b468d602edd6bc1898, type: 3}
   m_Name: Character Move
   m_EditorClassIdentifier: 
-  speed: 4
-  gravity: 2
-  jumpSpeed: 2
+  speed: 10
+  orientSpeed: 50
