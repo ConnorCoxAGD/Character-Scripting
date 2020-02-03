@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 [CreateAssetMenu]
-public class CharacterMove : CharacterBase
+public class MoveMouseOrient : CharacterBase
 {
     public override void Move()
     {

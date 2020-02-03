@@ -303,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2967d591b23e8ee458c9706c807e7c3c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 281404056}
+  target: {fileID: 0}
 --- !u!1 &281404056
 GameObject:
   m_ObjectHideFlags: 0
@@ -387,7 +387,7 @@ MonoBehaviour:
   OnStart:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0b69f6850578c024a85a47859de95869, type: 2}
+      - m_Target: {fileID: 11400000, guid: cedaba3b988df224889e612eebf8916b, type: 2}
         m_MethodName: set_Controller
         m_Mode: 2
         m_Arguments:
@@ -403,7 +403,7 @@ MonoBehaviour:
   onUpdateEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: 0b69f6850578c024a85a47859de95869, type: 2}
+      - m_Target: {fileID: 11400000, guid: cedaba3b988df224889e612eebf8916b, type: 2}
         m_MethodName: Move
         m_Mode: 1
         m_Arguments:
