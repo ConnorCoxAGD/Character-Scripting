@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\conno\.Rider2018.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\conno\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Character Scripts.1557198817.00" t="ExcludeRecursive" />
-    <e p="C:\Users\conno\Documents\Character-Scripting\Character Scripts" t="IncludeRecursive">
+    <e p="C:\Users\10873383\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\10873383\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_Character Scripts.887173475.00" t="ExcludeRecursive" />
+    <e p="C:\Users\10873383\Documents\Character-Scripting\Character Scripts" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
@@ -11,24 +11,24 @@
           <e p="AnimBehavior.cs" t="Include" />
           <e p="AnimTriggers.cs" t="Include" />
           <e p="DebugObject.cs" t="Include" />
+          <e p="DoWork.cs" t="Include" />
           <e p="EventBehaviors.cs" t="Include" />
+          <e p="FloatData.cs" t="Include" />
+          <e p="IDBehavior.cs" t="Include" />
+          <e p="LookAtCamera.cs" t="Include" />
+          <e p="MatchIDBehavior.cs" t="Include" />
+          <e p="MathFunctions.cs" t="Include" />
           <e p="Movement" t="Include">
-            <e p="CharacterBase.cs" t="Include" />
-            <e p="CharacterHandler.cs" t="Include" />
-            <e p="CharacterMove.cs" t="Include" />
-            <e p="CharControlScheme.cs" t="Include" />
-            <e p="LookAtCamera.cs" t="Include" />
+            <e p="CharacterMovement.cs" t="Include" />
+            <e p="MouseCamera.cs" t="Include" />
           </e>
-          <e p="UpdateEvents.cs" t="Include" />
+          <e p="NameID.cs" t="Include" />
         </e>
       </e>
       <e p="Character Scripts.sln" t="IncludeFlat" />
-      <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
-      <e p="Temp" t="ExcludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-      </e>
+      <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
 </project>
