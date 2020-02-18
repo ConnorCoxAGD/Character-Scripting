@@ -11,18 +11,21 @@
           <e p="AnimBehavior.cs" t="Include" />
           <e p="AnimTriggers.cs" t="Include" />
           <e p="DebugObject.cs" t="Include" />
-          <e p="DoWork.cs" t="Include" />
-          <e p="EventBehaviors.cs" t="Include" />
+          <e p="EventBehaviours.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
-          <e p="IDBehavior.cs" t="Include" />
+          <e p="FloatMathSystem.cs" t="Include" />
+          <e p="IDBehaviour.cs" t="Include" />
+          <e p="InstanceObject.cs" t="Include" />
           <e p="LookAtCamera.cs" t="Include" />
-          <e p="MatchIDBehavior.cs" t="Include" />
-          <e p="MathFunctions.cs" t="Include" />
+          <e p="MatchIDBehaviour.cs" t="Include" />
           <e p="Movement" t="Include">
             <e p="CharacterMovement.cs" t="Include" />
             <e p="MouseCamera.cs" t="Include" />
           </e>
           <e p="NameID.cs" t="Include" />
+          <e p="ObjectId.cs" t="Include" />
+          <e p="WorkSystem.cs" t="Include" />
+          <e p="WorkSystemManager.cs" t="Include" />
         </e>
       </e>
       <e p="Character Scripts.sln" t="IncludeFlat" />
