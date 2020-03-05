@@ -13,8 +13,11 @@
           <e p="DebugObject.cs" t="Include" />
           <e p="EventBehaviours.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
           <e p="IDBehaviour.cs" t="Include" />
           <e p="InstanceObject.cs" t="Include" />
+          <e p="IntData.cs" t="Include" />
           <e p="LookAtCamera.cs" t="Include" />
           <e p="Movement" t="Include">
             <e p="MouseCamera.cs" t="Include" />
@@ -22,6 +25,8 @@
           </e>
           <e p="NameID.cs" t="Include" />
           <e p="ObjectId.cs" t="Include" />
+          <e p="StringListData.cs" t="Include" />
+          <e p="TextBehaviour.cs" t="Include" />
           <e p="WorkSystem.cs" t="Include" />
           <e p="WorkSystemManager.cs" t="Include" />
         </e>
